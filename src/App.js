@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'; 
 import MyNewComponent from "./newcomponent/MyNewComponent"
 
 import './App.css';
