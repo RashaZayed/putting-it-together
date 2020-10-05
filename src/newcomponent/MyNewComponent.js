@@ -1,5 +1,5 @@
 import React,{Component}from 'react';
-import './MyNewComponent.css';
+import styles from './MyNewComponent.module.css'
 
 class MyNewComponent extends Component {
     constructor(props){
@@ -21,7 +21,7 @@ class MyNewComponent extends Component {
                 <p>Age: {this.state.age}</p>
                <p> HairColor: {this.props.hairColor}</p>
             
-            <button className='btn' onClick={this.ageInc}>Happy Birthday {this.props.firstName} {this.props.lastName}</button>
+            <button className={styles.btn} onClick={this.ageInc}>Happy Birthday {this.props.firstName} {this.props.lastName}</button>
             
             </div>
 
